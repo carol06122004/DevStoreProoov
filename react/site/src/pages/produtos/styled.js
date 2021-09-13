@@ -16,11 +16,13 @@ const Container = styled.div`
             
     }
 
+ 
+
     .bar-new-student {
-        border: 3px solid #986CDF;
+        border: 3px solid #119FDC;
         border-radius: .5em;
         margin-right: .4em;
-        background-color: #986CDF;
+        background-color: #119FDC;
     }
 
     .text-new-student {
@@ -96,6 +98,26 @@ const Container = styled.div`
         font-weight: 800;
     }
 
+    .agp-input-link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+  
+    .class-student-link {
+        font-size: 18px;
+        color: #615858;
+        margin-right: 0.8em;
+        font-weight: 800;
+        input{
+            width: 209px;
+            height:200px;
+        }
+    }
+
+
+
     .corse-student {
         font-size: 18px;
         color: #615858;
@@ -113,12 +135,13 @@ const Container = styled.div`
     .button-create  button {
         width: 106px;
         height: 36px;
-
-        background: #E911C6;
+        
+        
+        background: #119FDC;
         border-radius: 44px;
         border: none;
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 2em;
         font-weight: bold;
     }
@@ -221,7 +244,7 @@ const Container = styled.div`
     }
 
     thead {
-        background-color: #986CDF;
+        background-color: #6CC3DF;
     }
 
     table {
