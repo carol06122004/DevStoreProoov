@@ -7,7 +7,6 @@ export default function initModels(sequelize) {
   var tb_produto = _tb_produto.init(sequelize, DataTypes);
 
 
-
   return {
     tb_produto
   };

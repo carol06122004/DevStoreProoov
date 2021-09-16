@@ -39,7 +39,7 @@ export default class tb_produto extends Model {
       allowNull: true
     },
     img_produto: {
-      type: DataTypes.STRING(800),
+      type: DataTypes.STRING(255),
       allowNull: true
     },
     bt_ativo: {
